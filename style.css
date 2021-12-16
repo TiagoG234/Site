@@ -1,25 +1,27 @@
 body{
         color:white;
-        background: #283618;
+        background: #284B63;
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
-
+        font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 h1{
         text-align: center;
-        color: #BC6C25;
+        color: #A5402D;
         font-size: xx-large;
-        font-family: 'Times New Roman' ;
+        font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 h2{
         color: #DDA15E;
+        font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 p{
         color: #FEFAE0;
+        font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
 strong{
@@ -45,6 +47,8 @@ img{
 
 h3{
         text-indent: 6%;
+        color: #DDA15E;
+        font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 .customIndent{
         padding-left: 5em;
@@ -75,3 +79,20 @@ img.icon{
         margin-right: auto;
         width: 30%;    
 }
+
+.footnote{
+        font-size: small;
+}
+
+ul {
+        list-style: none; /* Remove default bullets */
+      }
+      
+      ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: whitesmoke; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+      }
