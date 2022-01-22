@@ -41,6 +41,16 @@ strong{
         clear: both;
       }
 
+.first-column{
+        float: left;
+        width: 20%;
+}
+
+.second-column{
+        float: center;
+        width: 80%;
+}
+
 img{
         width: 40%
 }
